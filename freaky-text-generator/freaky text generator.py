@@ -18,7 +18,7 @@ def submit_button_clicked():
         if random.choice([True, False]):
             word = f"{word[0]}-{word.lower()}"
         if random.choice([True, False, False]):
-            word += random.choice(["...", "..", "."])
+            word += random.choice(["...", ".."])
         if random.choice([True, False, False]):
             word += random.choice(["~", "~~"])
         #Append the modified word to the converted_words list
